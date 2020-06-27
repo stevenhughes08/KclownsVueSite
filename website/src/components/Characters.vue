@@ -1,13 +1,14 @@
 <template>
     <div>
-        <h1>Characters</h1>
-        <p>This is characters text.</p>
+        <h1>{{ name }}</h1>
+        <p>{{ about }}</p>
     </div>
 </template>
 
 <script>
 export default {
-    name: 'Characters'
+    name: 'Characters',
+    about: 'This is character text.'
 }
 </script>
 
